@@ -11,4 +11,3 @@ ZnClient new
  contentReader: [ : entity | 
    ZnEasy getJpeg: (((NeoJSONReader fromString: entity contents) at: #data) at: #url) display ]; 
  post.
- 

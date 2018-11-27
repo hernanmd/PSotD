@@ -1,0 +1,1 @@
+(Generator on: [ : g | 10 timesRepeat: [ g yield: UUID new asString36 ] ]) upToEnd.
